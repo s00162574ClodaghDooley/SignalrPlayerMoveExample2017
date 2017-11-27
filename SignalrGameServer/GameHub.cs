@@ -15,10 +15,10 @@ namespace SignalrGameServer
         // Use static to protect Data across dofferent hub invocations
         public static Queue<PlayerData> RegisteredPlayers = new Queue<PlayerData>( new PlayerData[]
         {
-            new PlayerData { GamerTag = "Dark Terror", imageName = "", playerID = Guid.NewGuid().ToString(), XP = 200 },
-            new PlayerData { GamerTag = "Mistic Meg", imageName = "", playerID = Guid.NewGuid().ToString(), XP = 2000 },
-            new PlayerData { GamerTag = "Jinxy", imageName = "", playerID = Guid.NewGuid().ToString(), XP = 1200 },
-            new PlayerData { GamerTag = "Jabber Jaws", imageName = "", playerID = Guid.NewGuid().ToString(), XP = 3200 },
+            new PlayerData { GamerTag = "DeathBlossom666", imageName = "", playerID = Guid.NewGuid().ToString(), XP = 200 },
+            new PlayerData { GamerTag = "InEedHEaliNg", imageName = "", playerID = Guid.NewGuid().ToString(), XP = 2000 },
+            new PlayerData { GamerTag = "DarkFlames47", imageName = "", playerID = Guid.NewGuid().ToString(), XP = 1200 },
+            new PlayerData { GamerTag = "PickleTime9", imageName = "", playerID = Guid.NewGuid().ToString(), XP = 3200 },
         });
 
         public static List<PlayerData> Players = new List<PlayerData>();
